@@ -1,18 +1,14 @@
-import React, {useState} from 'react'
+import React from 'react'
 
 export const EditTodoForm = ({editTodo, task}) => {
-    const [value, setValue] = useState(task.task);
 
-    const handleSubmit = (e) => {
-      // prevent default action
-        e.preventDefault();
-        // edit todo
-        editTodo(value, task.id);
-      };
+    // criar estado para a tarefa
+
+    // criar função para manipular o estado da tarefa
+
   return (
     <div className="TodoForm">
-      <input type="text" value={value} onChange={(e) => setValue(e.target.value)} className="todo-input" placeholder='Update task' />
-    <button onClick={handleSubmit} type="submit" className='todo-btn'>Atualizar</button>
-  </div>
+      {/* criar formulário para editar tarefa */}
+    </div>
   )
 }

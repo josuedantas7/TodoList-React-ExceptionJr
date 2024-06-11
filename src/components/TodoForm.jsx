@@ -1,22 +1,17 @@
-import React, {useState} from 'react'
+import React from 'react'
 
 export const TodoForm = ({addTodo}) => {
-    const [value, setValue] = useState('');
+    // criar estado para o nome da tarefa
 
     const handleSubmit = (e) => {
-      // prevent default action
-        e.preventDefault();
-        if (value) {
-          // add todo
-          addTodo(value);
-          // clear form after submission
-          setValue('');
-        }
-      };
+      e.preventDefault();
+      // usar o valo0r e adicionar na função addTodo
+    };
+
   return (
     <form onSubmit={handleSubmit} className="TodoForm">
-    <input type="text" value={value} onChange={(e) => setValue(e.target.value)} className="todo-input" placeholder='Qual tarefa você deseja criar?' />
-    <button type="submit" className='todo-btn'>Adicionar</button>
-  </form>
+      <input className="todo-input" />
+      <button className='todo-btn'>Adicionar</button>
+    </form>
   )
 }

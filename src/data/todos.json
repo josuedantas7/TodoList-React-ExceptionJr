@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "task": "Learn React",
+            "completed": false,
+            "isEditing": false
+        },
+        {
+            "id": 2,
+            "task": "Learn Redux",
+            "completed": false,
+            "isEditing": false
+        },
+        {
+            "id": 3,
+            "task": "Learn React Router",
+            "completed": false,
+            "isEditing": false
+        },
+        {
+            "id": 4,
+            "task": "Learn Redux Saga",
+            "completed": false,
+            "isEditing": false
+        },
+        {
+            "id": 5,
+            "task": "Learn Redux Thunk",
+            "completed": false,
+            "isEditing": false
+        }
+    ]
+}
