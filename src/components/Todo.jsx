@@ -6,11 +6,13 @@ import { faTrash } from '@fortawesome/free-solid-svg-icons'
 export const Todo = ({task, deleteTodo, editTodo, toggleComplete}) => {
   return (
     <div className="Todo">
-        <p>
+        <p className={`incompleted`}>
           {/* nome da tarefa */}
         </p>
         <div>
             {/* criar icones para editar e excluir tarefa */}
+            <FontAwesomeIcon className="edit-icon" />
+            <FontAwesomeIcon className="delete-icon" />
         </div>
     </div>
   )

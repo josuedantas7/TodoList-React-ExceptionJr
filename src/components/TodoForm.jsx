@@ -11,7 +11,9 @@ export const TodoForm = ({addTodo}) => {
   return (
     <form onSubmit={handleSubmit} className="TodoForm">
       <input className="todo-input" />
-      <button className='todo-btn'>Adicionar</button>
+      <button className='todo-btn'>
+
+      </button>
     </form>
   )
 }

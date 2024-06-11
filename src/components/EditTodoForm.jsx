@@ -8,7 +8,9 @@ export const EditTodoForm = ({editTodo, task}) => {
 
   return (
     <div className="TodoForm">
-      {/* criar formulário para editar tarefa */}
+        {/* criar formulário para editar tarefa */}
+        <input className='todo-btn' />
+        <button className='todo-btn' type='button'></button>
     </div>
   )
 }
